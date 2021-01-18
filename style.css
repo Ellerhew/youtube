@@ -1,0 +1,160 @@
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: black;
+  color: rgb(255, 247, 247);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.logo {
+  text-decoration: none;
+  color: rgb(255, 247, 247);
+  font-weight: bold;
+}
+
+.logo i {
+  color: red;
+}
+
+video {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hashtag {
+  color: cornflowerblue;
+  display: flex;
+}
+
+.hashtag li {
+  padding: 2px;
+}
+
+.titleAndButton {
+  display: flex;
+}
+
+section {
+  padding-inline-start: 10px;
+  font-size: 15px;
+}
+
+.title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+span.views1 {
+  font-size: 12px;
+  color: rgb(92, 90, 90);
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 15px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 12px;
+}
+
+.channel {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metadata {
+  display: flex;
+  align-items: center;
+}
+
+.uploader {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.metadata img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.subsribers {
+  font-size: 11px;
+  color: rgb(92, 90, 90);
+}
+
+.items img {
+  width: 150px;
+  height: 100px;
+}
+
+button {
+  border: none;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.next {
+  font-size: 13px;
+  margin: 10px 0px;
+  color: rgb(126, 122, 122);
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+li.items {
+  display: flex;
+  margin: 15px 0px;
+}
+
+.more {
+  display: flex;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.name,
+.views {
+  font-size: 12px;
+  display: block;
+  margin: 3px 0px;
+  color: rgb(126, 122, 122);
+}
+
+.nextInfo {
+  margin: 5px;
+}
+
+.subscribe {
+  margin: 10px;
+}
